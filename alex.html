@@ -3,37 +3,78 @@
     <head>
         <link rel = "stylesheet" type = text/css href = "alex.css">
         <title>
-            Personal Website
+            Edward Muñoz
         </title>
     </head>
 
     <body>
         <header>
-            Edward Alexander Muñoz
-            <nav>
-
-            </nav>
+            <h1>Edward Alexander Muñoz</h1>
+            <h3>Front-End Developer</h3>
+            <div>
+                <a href = "https://github.com/Alexxanderr20">
+                    <img src = "images/GitHub-Mark.png" alt = "GitHub logo" id = "github-logo">
+                </a>
+                <a href  = "mailto: alexmu419@icloud.com">
+                    <img src = "images/email-logo.png" alt = "email logo" id = "email-logo">
+                </a>
+                <a href = "https://twitter.com/Edward_Munoz21">
+                    <img src = "images/twitter.png" alt = "twitter logo" id = "twitter-logo">
+                </a>
+            </div>
         </header>
 
         <hr>
         <section id = "projects">
             <h3>Projects</h3>
+                <p>
+                    Simple rock-paper-scissors game made with HTML, CSS, and JavaScript.
 
+                    <img src = "images/rps.png">
+                </p>
         </section>
         <hr>
         <section id = "skills">
             <h3>Skills</h3>
+                <h4>Front-End</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+
+                <h4>Misc.</h4>
+                    <ul>
+                        <li>Git/GitHub</li>
+                    </ul>
 
         </section>
         <hr>
         <section id = "about">
             <h3>About Me</h3>
-
+                <p>
+                    I'm a self-taught developer, who mainly focuses on front-end development.
+                    I am always willing and ready to learn any new technologies in order to improve myself, 
+                    and provide more value to whoever i'm working for.
+                </p>
         </section>
         <hr>
         <section id = "contact">
-            <h3>Contact</h3>
-
+            <h3>Contact Me</h3>
+                <p>
+                    Questions or comments? You can contact me by using my <a href = "https://github.com/Alexxanderr20">GitHub</a>, my <a href = "mailto: alexmu419@icloud.com">email</a> at <strong>alexmu419@icloud.com</strong>.
+                    You can also reach me using the form below.
+                </p>
+                    <form>
+                        <label for = "name">Full Name</label>
+                        <input type = "text" id = "full-name" name = "full-name">
+                        <label for = "email">Email</label>
+                        <input type = "email" id = "email" name = "email">
+                        <label for = "message">Message</label>
+                        <textarea name = "message" rows = "10" cols = "40">
+                            Your message here.
+                        </textarea>
+                    </form>
         </section>
 
     </body>

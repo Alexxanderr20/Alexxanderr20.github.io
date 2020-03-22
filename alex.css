@@ -1,0 +1,55 @@
+*
+{
+    box-sizing: content-box;
+}
+
+body
+{
+    text-align: center;
+}
+
+li
+{
+    text-align: center;
+
+}
+
+
+/*
+    ====================
+        Header Styles
+    ====================
+*/
+
+header
+{
+    background-color: rgb(75, 75, 117);
+    height: 45rem;
+}
+
+img
+{
+    max-width: 20rem;
+    height: 10rem;
+    margin-top: 2rem;
+}
+
+#github-logo
+{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+#email-logo
+{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+#twitter-logo
+{
+    width: 4rem;
+    height: 4rem;
+}
