@@ -29,21 +29,30 @@
                 <div>
                         <img src = "images/rps.png" align = "center">
                 </div>
+                <div>
+                    <button id = "github-rps" onclick = "window.open('https://github.com/Alexxanderr20/alex-personal-website','_blank')">GitHub</button>
+                </div>
         </section>
         <section id = "skills">
             <h3>Skills</h3>
-            <div>
-                <h4 id = "Front-End">Front-End</h4>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
+
+        <div class = "row">
+            <div class = "column">
+                <div id = "front-end-skills">
+                    <h4>Front-End</h4>
+                </div>
             </div>
-                <h4>Misc.</h4>
-                    <ul>
-                        <li>Git/GitHub</li>
-                    </ul>
+            <div class = "column">
+                <div id = "back-end-skills">
+                    <h4>Back-End</h4>
+                </div>
+            </div>
+            <div class = "column">
+                <div id = "misc-skills">
+                    <h4>Misc. Skills</h4>
+                </div>
+            </div>
+        </div>
 
         </section>
         <section id = "about">
@@ -60,14 +69,26 @@
                     Any questions or comments?
                 </p>
                     <form>
-                        <label for = "name">Full Name</label>
-                        <input type = "text" id = "full-name" name = "full-name">
-                        <label for = "email">Email</label>
-                        <input type = "email" id = "email" name = "email">
-                        <label for = "message">Message</label>
-                        <textarea name = "message" rows = "10" cols = "40">
-                            Your message here.
-                        </textarea>
+                        <div id = "name-form">
+                            <label for = "name"></label>
+                            <input type = "text" id = "full-name" name = "full-name" value = "Name">
+                        </div>
+                        <br>
+                        <div id = "email-form">
+                            <label for = "email"></label>
+                            <input type = "email" id = "email" name = "email" value = "Email">
+                        </div>
+                        <br>
+                        <div id = "message-form">
+                            <label for = "message"></label>
+                            <textarea name = "message" id = "message" rows = "10" cols = "40">
+                            Your message
+                             </textarea>
+                        </div>
+
+                        <div>
+                            <input type = "submit" id = "submit">
+                        </div>
                     </form>
         </section>
 

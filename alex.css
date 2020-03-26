@@ -75,6 +75,11 @@ img
     padding: 0;
 }
 
+#github-rps
+{
+    margin-top: 2rem;
+}
+
 /*
     ====================
         Skills Styling
@@ -83,17 +88,40 @@ img
 
 #skills
 {
-    height: 25rem;
-    padding: 2rem;
+    height: 35rem;
+    width: auto;
+    padding-top: 2rem;
     background-color: rgb(228, 228, 228);
 }
 
-#skills ul
-{
-    display: block;
-    text-align: left;
+.column
+{   float: left;
+    width: 33.33%;
 }
 
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#front-end-skills
+{
+    float: left;
+    width: 12rem;
+}
+
+#back-end-skills
+{
+    width: 12rem;
+}
+
+#misc-skills
+{
+    float: right;
+    width: 12rem;
+}
 /*
     =====================
         About Styling
@@ -102,10 +130,10 @@ img
 
     #about
     {
-        height: 30rem;
+        height: 25rem;
         padding: 3rem;
         line-height: 3rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
 /*
@@ -115,10 +143,38 @@ img
 */
     #contact
     {
+        color: white;
         padding: 3rem;
-        background-color: rgb(228, 228, 228);
+        background-color: rgb(72, 72, 109);
     }
 
+    #name-form
+    {
+        display: block;
+    }
+
+    #full-name
+    {
+        width: 15rem;
+        height: 2rem;
+    }
+
+
+    #email
+    {
+        width: 15rem;
+        height: 2rem;
+    }
+
+    #message
+    {
+        width: 15rem;
+    }
+
+    #submit
+    {
+        margin-top: 2rem;
+    }
 /*
 #github-logo
 {
