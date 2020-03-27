@@ -7,17 +7,17 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-nav
+/* nav
 {
     list-style-type: none;
     margin-top: 22rem;
-}
+} */
 
 li
 {
-    display: inline;
     font-size: 1.5rem;
-    padding: 1rem;
+    line-height: 5rem;
+    list-style: none;
 }
 
 li a
@@ -26,6 +26,10 @@ li a
     text-decoration: none;
 }
 
+.headings
+{
+    font-size: 1.5rem;
+}
 /*
     =====================
         Header Styling
@@ -106,22 +110,28 @@ img
     clear: both;
 }
 
-#front-end-skills
+@media screen and (max-width: 10rem)
 {
-    float: left;
-    width: 12rem;
+    .column
+    {
+        width: 100%;
+    }
+}
+
+/* #front-end-skills
+{
+  background-color: rgb(72, 72, 109);
 }
 
 #back-end-skills
 {
-    width: 12rem;
+   background-color: aqua;
 }
 
 #misc-skills
 {
-    float: right;
-    width: 12rem;
-}
+    background-color: brown;
+} */
 /*
     =====================
         About Styling
@@ -131,9 +141,9 @@ img
     #about
     {
         height: 25rem;
-        padding: 3rem;
+        padding: 1rem;
         line-height: 3rem;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
 
 /*
