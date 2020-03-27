@@ -185,24 +185,49 @@ img
     {
         margin-top: 2rem;
     }
-/*
-#github-logo
-{
-    width: 4rem;
-    height: 4rem;
-    margin-right: 1rem;
-}
 
-#email-logo
-{
-    width: 4rem;
-    height: 4rem;
-    margin-right: 1rem;
-}
+    /*
+        =====================
+            Footer Styling
+        =====================
+    */
 
-#twitter-logo
-{
-    width: 4rem;
-    height: 4rem;
-    background-color: rgb(72, 72, 109);
-} */
+    footer
+    {
+        height: 10rem;
+        background-color: rgb(42, 42, 58);
+    }
+
+    footer span
+    {
+        color: white;
+    }
+
+    #logos
+    {
+        padding-bottom: 1rem;
+    }
+
+    #github-logo
+    {
+        width: 2rem;
+        height: 2rem;
+        background-color: rgb(42, 42, 58);
+    }
+
+    #linked-logo
+    {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #twitter-logo
+    {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #footer-span
+    {
+        color:rgb(59, 164, 250);
+    }
