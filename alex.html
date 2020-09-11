@@ -20,19 +20,43 @@
                 </h1>
         </header>
 
+        <div>
+                <nav class = "top-nav">
+                    <a href = "#home">Home</a>
+                    <a href = "#projects">Projects</a>
+                    <a href = "#about-me">About</a>
+                    <a href = "#contact">Contact</a>
+                </nav>
+        </div>
+
+
+        <section id = "about-me">
+                <h3 class = "headings">About Me</h3>
+                    <p>
+                        I'm a self-taught developer, who mainly focuses on front-end development.
+                        I am always willing and ready to learn any new technologies in order to improve myself, 
+                        and provide more value to whoever i'm working for.
+                    </p>
+            </section>
+            
+
         <section id = "projects">
-            <h3 class = "headings">Projects</h3>
-                <p id = "projects-para">
-                    Simple rock-paper-scissors game made with HTML, CSS, and JavaScript.
-                </p>
+            <h3 id = "project-heading">Projects</h3>
                 <div>
                         <img src = "images/new_rps.png" align = "center">
                 </div>
-                <div>
+
+                <div class = "website-links">
                     <button id = "github-rps" onclick = "window.open('https://github.com/Alexxanderr20/alex-personal-website','_blank')">GitHub</button>
-                </div>
-                <div>
                     <button id = "source-rps">Website</button>
+                </div>
+
+                <p>
+                    *calculator website image*
+                </p>
+                <div class = "website-links">
+                        <button id = "github-calculator" onclick = "window.open('https://github.com/Alexxanderr20/calculator.github.io','_blank')">GitHub</button>
+                        <button id = "source-rps">Website</button>
                 </div>
         </section>
 
@@ -66,15 +90,6 @@
         </div>
 
         </section> -->
-
-        <section id = "about">
-            <h3 class = "headings">About Me</h3>
-                <p>
-                    I'm a self-taught developer, who mainly focuses on front-end development.
-                    I am always willing and ready to learn any new technologies in order to improve myself, 
-                    and provide more value to whoever i'm working for.
-                </p>
-        </section>
         <section id = "contact">
             <h3 class = "headings">Contact Me</h3>
                 <p>
@@ -93,8 +108,7 @@
                         <br>
                         <div id = "message-form">
                             <label for = "message"></label>
-                            <textarea name = "message" id = "message" rows = "10" cols = "40">
-                            Your message
+                            <textarea name = "message" id = "message" rows = "10" cols = "40">Your message
                              </textarea>
                         </div>
 
