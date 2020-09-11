@@ -1,11 +1,23 @@
 .top-nav
 {
-    background-color: rgb(72, 72, 109);
+    display: block;
+    color: white;
+    background-color: turquoise;
     margin: 0;
     padding: 0;
-    word-spacing: 4rem;
-    font-size: 1.25rem;
+    height: 1.75rem;
+    word-spacing: 3rem;
+    font-size: 1.5rem;
     /* overflow: hidden; */
+}
+
+a:active{
+    color: white;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
 }
 
  body
@@ -67,7 +79,9 @@ header
 
 #projects
 {
-    height: 33rem;
+    height: 45rem;
+    color: white;
+    background-color: rgb(72, 72, 109);
 }
 
 #projects-para
@@ -77,6 +91,12 @@ header
     text-align: center;
     line-height: 2rem;
 
+}
+
+#project-heading
+{
+    font-size: 1.5rem;
+    padding-top: 2rem;
 }
 
 img
@@ -146,14 +166,20 @@ img
     =====================
 */
 
-    #about
+    #about-me
     {
-        height: 25rem;
+        color: black;
+        height: 20rem;
         padding: 1rem;
         line-height: 3rem;
         font-size: 1.75rem;
+        /* background-color: rgb(72, 72, 109); */
     }
 
+    /* .headings
+    {
+        text-align: right;
+    } */
 /*
     =====================
         Contact Styling
@@ -161,9 +187,10 @@ img
 */
     #contact
     {
-        color: white;
+        height: 30rem;
+        color: black;
         padding: 3rem;
-        background-color: rgb(72, 72, 109);
+        /* background-color: rgb(72, 72, 109); */
     }
 
     #name-form
@@ -242,4 +269,9 @@ img
     #footer-span
     {
         color:rgb(59, 164, 250);
+    }
+
+    .headings
+    {
+        /* margin-bottom: 2rem; */
     }
