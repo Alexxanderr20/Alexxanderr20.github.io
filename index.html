@@ -1,1 +1,140 @@
-<h1>Hello this is practice!</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = text/css href = "alex.css">
+        <title>
+            Edward Muñoz
+        </title>
+    </head>
+
+    <body>
+            <!-- <div class = "top-nav">
+                    <a href = "#home">Home</a>
+                    <a href = "#projects">Projects</a>
+                    <a href = "#about-me">About</a>
+                    <a href = "#contact">Contact</a>
+            </div> -->
+        <header>
+                <h1 id = "header-div"> Hi, I'm <span id = "intro-name">Edward Muñoz</span>,
+                    <br>and I'm a front-end developer.
+                </h1>
+        </header>
+
+        <div>
+                <nav class = "top-nav">
+                    <a href = "#home">Home</a>
+                    <a href = "#projects">Projects</a>
+                    <a href = "#about-me">About</a>
+                    <a href = "#contact">Contact</a>
+                </nav>
+        </div>
+
+
+        <section id = "about-me">
+                <h3 class = "headings">About Me</h3>
+                    <p>
+                        I'm a self-taught developer, who mainly focuses on front-end development.
+                        I am always willing and ready to learn any new technologies in order to improve myself, 
+                        and provide more value to whoever i'm working for.
+                    </p>
+            </section>
+            
+
+        <section id = "projects">
+            <h3 id = "project-heading">Projects</h3>
+                <div>
+                        <img src = "images/new_rps.png" align = "center">
+                </div>
+
+                <div class = "website-links">
+                    <button id = "github-rps" onclick = "window.open('https://github.com/Alexxanderr20/alex-personal-website','_blank')">GitHub</button>
+                    <button id = "source-rps">Website</button>
+                </div>
+
+                <p>
+                    *calculator website image*
+                </p>
+                <div class = "website-links">
+                        <button id = "github-calculator" onclick = "window.open('https://github.com/Alexxanderr20/calculator.github.io','_blank')">GitHub</button>
+                        <button id = "source-rps">Website</button>
+                </div>
+        </section>
+
+        <!-- <section id = "skills">
+            <h3 class = "headings">Skills</h3>
+
+        <div class = "row">
+
+            <div class = "column" id = "front-end-skills">
+                    <h4>Front-End</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+            </div>
+
+            <div class = "column" id = "back-end-skills">
+                    <h4>Back-End</h4>
+            </div> -->
+
+            <!-- <div class = "column" id = "misc-skills">
+                    <h4>Misc. Skills</h4>
+                        <ul>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>Trello</li>
+                            <li>Slack</li>
+                        </ul>
+            </div>
+        </div>
+
+        </section> -->
+        <section id = "contact">
+            <h3 class = "headings">Contact Me</h3>
+                <p>
+                    Any questions or comments?
+                </p>
+                    <form>
+                        <div id = "name-form">
+                            <label for = "name"></label>
+                            <input type = "text" id = "full-name" name = "full-name" placeholder= "Name">
+                        </div>
+                        <br>
+                        <div id = "email-form">
+                            <label for = "email"></label>
+                            <input type = "email" id = "email" name = "email" placeholder = "Email">
+                        </div>
+                        <br>
+                        <div id = "message-form">
+                            <label for = "message"></label>
+                            <textarea name = "message" id = "message" rows = "10" cols = "40" placeholder= "Your message here"></textarea>
+                        </div>
+
+                        <div>
+                            <input type = "submit" id = "submit">
+                        </div>
+                    </form>
+        </section>
+
+        <footer>
+            <div id = "logos">
+                <a href = "https://twitter.com/Edward_Munoz21" target = "_blank">
+                    <img src = "images/black-twitter-icon-png-11.png" id = "twitter-logo">
+                </a>
+
+                <a href = "https://github.com/Alexxanderr20" target = "_blank">
+                    <img src = "images/black-github.svg" id = "github-logo">
+                </a>
+
+                <a href = "https://www.linkedin.com/in/edward-munoz-76a7641a3/" target = "_blank">
+                    <img src = "images/linked-in.png" id = "linked-logo">
+                </a>
+            </div>
+            <br>
+            <span>
+                Edward Muñoz <span id = "footer-span">&copy; 2020</span>
+            </span>
+        </footer>
+    </body>
+</html>
