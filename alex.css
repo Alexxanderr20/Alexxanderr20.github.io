@@ -2,10 +2,10 @@
 {
     display: block;
     color: white;
-    background-color: turquoise;
+    /* background-color: turquoise; */
     margin: 0;
     padding: 0;
-    height: 1.75rem;
+    /* height: 1.75rem; */
     word-spacing: 3rem;
     font-size: 1.5rem;
     /* overflow: hidden; */
@@ -37,7 +37,7 @@ li
 
 li a
 {
-    color: rgb(59, 164, 250);
+    /* color: rgb(59, 164, 250); */
     text-decoration: none;
 }
 
@@ -53,9 +53,9 @@ li a
 
 header
 {
-    padding-top: 20rem;
+    /* padding-top: 20rem; */
     color: white;
-    height: 30rem;
+    /* height: 30rem; */
     text-align: center;
     background-color: rgb(72, 72, 109);
 }
@@ -79,7 +79,7 @@ header
 
 #projects
 {
-    height: 45rem;
+    /* height: 45rem; */
     color: white;
     background-color: rgb(72, 72, 109);
 }
@@ -116,7 +116,6 @@ img
 {
     margin-left: 3rem;
     margin-right: 2rem;
-    /* position: relative; */
     float: left;
 }
 
@@ -124,6 +123,22 @@ img
 {
     /* position: fixed; */
     /* float: right; */
+    margin-top: 3rem;
+    font-size: 1.25rem;
+    line-height: 3rem;
+}
+
+
+#calculator-image
+{
+    margin-left: 3rem;
+    margin-right: 2rem;
+    float: left;
+}
+
+#calculator-paragraph
+{
+    float: right;
     font-size: 1.25rem;
     line-height: 3rem;
 }
@@ -135,7 +150,7 @@ img
 
 #skills
 {
-    height: 35rem;
+    /* height: 35rem; */
     width: auto;
     padding-top: 2rem;
     background-color: rgb(228, 228, 228);
@@ -184,7 +199,7 @@ img
     #about-me
     {
         color: black;
-        height: 23rem;
+        /* height: 23rem; */
         padding: 1rem;
         line-height: 3rem;
         font-size: 1.75rem;
@@ -202,9 +217,9 @@ img
 */
     #contact
     {
-        height: 30rem;
+        /* height: 30rem; */
         color: black;
-        padding: 3rem;
+        padding: 2.75rem;
         /* background-color: rgb(72, 72, 109); */
     }
 
@@ -216,14 +231,14 @@ img
     #full-name
     {
         width: 15rem;
-        height: 2rem;
+        /* height: 2rem; */
     }
 
 
     #email
     {
         width: 15rem;
-        height: 2rem;
+        /* height: 2rem; */
     }
 
     #message
@@ -265,28 +280,23 @@ img
     #github-logo
     {
         width: 2rem;
-        height: 2rem;
+        /* height: 2rem; */
         background-color: rgb(42, 42, 58);
     }
 
     #linked-logo
     {
         width: 2rem;
-        height: 2rem;
+        /* height: 2rem; */
     }
 
     #twitter-logo
     {
         width: 2rem;
-        height: 2rem;
+        /* height: 2rem; */
     }
 
     #footer-span
     {
         color:rgb(59, 164, 250);
-    }
-
-    .headings
-    {
-        /* margin-bottom: 2rem; */
     }
